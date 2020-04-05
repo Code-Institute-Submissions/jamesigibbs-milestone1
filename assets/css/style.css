@@ -8,16 +8,16 @@
 
 header {
     background-color: #1c7191;
-}
-
-.main-header {
-    background-image: url("./assets/imgs/mountain-header-index.png")
+    background-image: url("../imgs/mountain-header-index.png");
+    background-position: bottom;
+    height: 100vh;
 }
 
 .heading{
     color: #fafafa;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
+    padding-top: 50% 
 }
 
 #name{
@@ -27,7 +27,7 @@ header {
 #title {
     font-size: 50px;
 }
-#download {
+.download {
     font-size: 55px;
 }
 /*----------------------------------------Navbar
