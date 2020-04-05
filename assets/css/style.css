@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Roboto&display=swap');
+
+/*--------temp*/
+
+
+
+/*----------------------------------------Header*/
+
+header {
+    background-color: #1c7191;
+}
+
+.main-header {
+    background-image: url("./assets/imgs/mountain-header-index.png")
+}
+
+.heading{
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+#name{
+    font-size: 100px;
+    
+}
+#title {
+    font-size: 50px;
+}
+#download {
+    font-size: 55px;
+}
+/*----------------------------------------Navbar
