@@ -10,6 +10,8 @@ header {
     background-color: #1c7191;
     background-image: url("../imgs/mountain-header-index.png");
     background-position: bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
     height: 100vh;
 }
 
@@ -17,17 +19,103 @@ header {
     color: #fafafa;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    padding-top: 50% 
+    padding-left: 15px;
 }
 
 #name{
     font-size: 100px;
-    
+    padding-top: 15vh;
 }
 #title {
-    font-size: 50px;
+    font-size: 30px;
 }
 .download {
-    font-size: 55px;
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding-left: 120px
+    
 }
-/*----------------------------------------Navbar
+/*----------------------------------------Navbar*/
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: #fafafa !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: right;
+}
+
+a.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3) 
+}
+
+.active{
+    background-color: rgba(0, 0, 0, 0.3) 
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#postion-down{
+    padding-top: 12vh;
+    padding-right: 5px;
+    }
+
+.dropdown-menu {
+    background: #1c7191;
+    color: #fafafa;
+    
+}
+
+.dropdown-item{
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #55B9E3;
+}
+
+/*-----------------------------------------Footer*/
+
+footer {
+    background-color: #55B9E3;
+    color: #A7DEF2;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 3vh 10px 0 10px;
+}
+
+footer a:hover, footer p:hover, footer i:hover  {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer p a {
+    color: #A7DEF2;
+}
+
+footer i {
+    color: #A7DEF2;
+}
+
+
+.icons{
+    text-align: center;
+}
+
+.contact {
+    text-align: right;
+}
