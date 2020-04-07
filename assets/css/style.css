@@ -4,15 +4,50 @@
 
 
 
-/*----------------------------------------Header*/
+/*----------------------------------------Header Home*/
 
-header {
+.header-home {
     background-color: #1c7191;
     background-image: url("../imgs/mountain-header-index.png");
     background-position: bottom;
     background-repeat:no-repeat;
     background-size:cover;
     height: 100vh;
+}
+
+.heading-home{
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+#name-home {
+    font-size: 100px;
+    padding-top: 15vh;
+}
+#title-home {
+    font-size: 30px;
+}
+.download-home {
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding-left: 120px
+    
+}
+
+/*---------------------------------------Header 2*/
+
+.header {
+    background-color: #1c7191;
+    background-image: url("../imgs/mountain-header.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 50vh;
+    
 }
 
 .heading{
@@ -28,6 +63,7 @@ header {
 }
 #title {
     font-size: 30px;
+    
 }
 .download {
     color: #fafafa;
@@ -36,55 +72,6 @@ header {
     font-size: 35px;
     padding-left: 120px
     
-}
-/*----------------------------------------Navbar*/
-
-.bg-light {
-    background-color: transparent !important;
-}
-
-a.nav-link {
-    color: #fafafa !important;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    text-align: right;
-}
-
-a.nav-link:hover{
-    background-color: rgba(0, 0, 0, 0.3) 
-}
-
-.active{
-    background-color: rgba(0, 0, 0, 0.3) 
-}
-
-.dropdown-toggle::after{
-    content: none;
-}
-
-.dropdown:hover>.dropdown-menu{
-    display: block;
-}
-
-#postion-down{
-    padding-top: 12vh;
-    padding-right: 5px;
-    }
-
-.dropdown-menu {
-    background: #1c7191;
-    color: #fafafa;
-    
-}
-
-.dropdown-item{
-    color: #fafafa;
-    font-family: "Poppins", sans-serif;
-}
-
-.dropdown-item:focus, .dropdown-item:hover{
-    background-color: #55B9E3;
 }
 
 /*-----------------------------------------Footer*/
@@ -119,3 +106,56 @@ footer i {
 .contact {
     text-align: right;
 }
+
+/*----------------------------------------Navbar*/
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: #fafafa !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: right;
+    text-shadow: -0.5px 0 grey, 0 0.5px grey, 0.5px 0 grey, 0 -0.5px grey;
+}
+
+a.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3) 
+}
+
+.active{
+    background-color: rgba(0, 0, 0, 0.3) 
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#postion-down{
+    padding-top: 12vh;
+    padding-right: 5px;
+    }
+    
+
+.dropdown-menu {
+    background: #1c7191;
+    color: #fafafa;
+    
+}
+
+.dropdown-item{
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #55B9E3;
+}
+
