@@ -159,3 +159,56 @@ a.nav-link:hover{
     background-color: #55B9E3;
 }
 
+
+/*--------------------------------------index.html*/
+
+.wte {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 20px 0px 20px 0;
+}
+.circle {
+    align-items: center;
+    float: center;
+    background: #55B9E3;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.avatar-img {
+    align-items: center;
+    height: 293px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+}
+
+.icon {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 100px;
+    color: #A7DEF2;
+}
+
+.circle-label {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 35px;
+    color: #fafafa;
+}
+
+.circle-p {
+    text-align: center;
+    font-family: "Roboto", sans-serif
+}
+
+.about-t {
+    font-family: "Poppins", sans-serif;
+    padding: 50px, 0, 20px, 0;
+}
+
