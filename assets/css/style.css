@@ -2,7 +2,9 @@
 
 /*--------temp*/
 
-
+.center {
+    text-align: center;
+}
 
 /*----------------------------------------Header Home*/
 
@@ -170,11 +172,11 @@ a.nav-link:hover{
 }
 .circle {
     align-items: center;
-    float: center;
     background: #55B9E3;
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    display: inline-block;
 }
 
 .avatar-img {
@@ -183,6 +185,7 @@ a.nav-link:hover{
     width: 250px;
     position: relative;
     top: 100px;
+    display: inline-block;
 }
 
 .icon {
@@ -191,6 +194,7 @@ a.nav-link:hover{
     top: 30px;
     font-size: 100px;
     color: #A7DEF2;
+   
 }
 
 .circle-label {
@@ -207,8 +211,65 @@ a.nav-link:hover{
     font-family: "Roboto", sans-serif
 }
 
-.about-t {
-    font-family: "Poppins", sans-serif;
-    padding: 50px, 0, 20px, 0;
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px
 }
 
+.about-t {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 80px
+}
+
+.about-c {
+    position: relative;
+    top: 100px;
+}
+
+/*-----------------------------------------experence.html*/
+
+.full-time-img{
+    height: 486px;
+    width: 486px;
+}
+
+.full-time-box {
+    position: relative;
+}
+
+.full-time-t {
+    position: absolute;
+    top: 40%;
+    left: 47%;    
+    margin-left: -50px;
+    margin-top: -50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.full-time-c {
+    position: absolute;
+    top: 50%;
+    left: 35%;    
+    margin-left: -50px;
+    margin-top: -50px;
+    font-family:"Roboto", sans-serif;
+}
+
+.part-time-t {
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.part-time-c {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family:"Roboto", sans-serif;
+}
+
+.part-time-img{
+    border: solid 5px #55B9E3;
+    height: 222px;
+    width: 333px;
+    display: inline-block; 
+}
