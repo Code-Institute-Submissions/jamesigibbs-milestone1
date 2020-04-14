@@ -6,6 +6,10 @@
 	text-align: center;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 /*----------------------------------------Header Home*/
 
 .header-home {
@@ -19,7 +23,6 @@
 
 .heading-home {
 	color: #fafafa;
-	font-family: "Poppins", sans-serif;
 	font-weight: 800;
 	padding-left: 15px;
 }
@@ -33,7 +36,6 @@
 }
 .download-home {
 	color: #fafafa;
-	font-family: "Poppins", sans-serif;
 	font-weight: 800;
 	font-size: 35px;
 	padding-left: 120px;
@@ -52,7 +54,6 @@
 
 .heading {
 	color: #fafafa;
-	font-family: "Poppins", sans-serif;
 	font-weight: 800;
 	padding-left: 15px;
 }
@@ -67,7 +68,6 @@
 
 .download {
 	color: #fafafa;
-	font-family: "Poppins", sans-serif;
 	font-weight: 800;
 	font-size: 35px;
 	padding-left: 120px;
@@ -78,7 +78,6 @@
 footer {
 	background-color: #55b9e3;
 	color: #a7def2;
-	font-family: "Poppins", sans-serif;
 	font-size: 15px;
 	font-weight: 700px;
 	padding: 3vh 10px 0 10px;
@@ -115,7 +114,6 @@ footer i {
 
 a.nav-link {
 	color: #fafafa !important;
-	font-family: "Poppins", sans-serif;
 	font-weight: 800;
 	font-size: 30px;
 	text-align: right;
@@ -150,7 +148,6 @@ a.nav-link:hover {
 
 .dropdown-item {
 	color: #fafafa;
-	font-family: "Poppins", sans-serif;
 }
 
 .dropdown-item:focus,
@@ -162,7 +159,6 @@ a.nav-link:hover {
 
 .wte {
 	text-align: center;
-	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	padding: 20px 0px 20px 0;
 }
@@ -194,7 +190,6 @@ a.nav-link:hover {
 
 .circle-label {
 	text-align: center;
-	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	position: relative;
 	top: 35px;
@@ -212,7 +207,6 @@ a.nav-link:hover {
 }
 
 .about-t {
-	font-family: "Poppins", sans-serif;
 	position: relative;
 	top: 80px;
 }
@@ -239,7 +233,6 @@ a.nav-link:hover {
 	left: 47%;
 	margin-left: -50px;
 	margin-top: -50px;
-	font-family: "Poppins", sans-serif;
 }
 
 .full-time-c {
@@ -253,7 +246,6 @@ a.nav-link:hover {
 
 .part-time-t {
 	padding-top: 50px;
-	font-family: "Poppins", sans-serif;
 }
 
 .part-time-c {
@@ -287,14 +279,34 @@ a.nav-link:hover {
 	padding-top: 20px;
 	padding-bottom: 50px;
 	text-align: center;
-	font-family: "Poppins", sans-serif;
 	font-weight: 700;
-}
-
-.project-n {
-	font-family: "Poppins", sans-serif;
 }
 
 .project-c {
 	font-family: "Roboto", sans-serif;
+}
+
+/*-----------------------------------------------------contact.html*/
+.contact-t {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-f {
+    padding: 30px 50px 20px 50px;
+    margin-bottom: 80px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    background-color:  #a7def2;
+    border-radius: 7%;
+    border: 5px #55b9e3 solid;
+}
+
+.submit {
+    width: 100%;
+    background-color: #1c7191;
+}
+
+.submit:hover {
+    background-color: #1c7191;
 }
