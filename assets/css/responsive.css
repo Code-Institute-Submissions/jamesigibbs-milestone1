@@ -1,0 +1,45 @@
+
+
+@media screen and (max-width: 500px){
+    /*----------------------------------Header*/
+    #name{
+        font-size: 2.5rem;
+        text-align: center
+    }
+    #title {
+        font-size: 1.5rem;
+    }
+    .download {
+        display: none;
+    }
+    /*----------------------------------Navbar*/
+    .r-navbar {
+        position: absolute;
+        top: 25px;
+        right: 300px;
+    }
+    .navbar-toggler {
+        background: #1c7191;
+        color: #fafafa;
+    }
+    
+    /*----------------------------------index.html*/
+
+    .avatar {
+        display: none;
+    }
+
+    .about {
+        padding-top: 25px;
+    }
+
+    .profile{
+       padding-top: 100px;
+    }
+
+    .profile-p {
+       width: 90%;
+       height: 95%;
+       float: center
+    }
+} 
