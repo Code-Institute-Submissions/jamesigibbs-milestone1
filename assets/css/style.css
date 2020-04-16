@@ -10,37 +10,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/*----------------------------------------Header Home*/
-
-.header-home {
-	background-color: #1c7191;
-	background-image: url("../imgs/mountain-header-index.png");
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-}
-
-.heading-home {
-	color: #fafafa;
-	font-weight: 800;
-	padding-left: 15px;
-}
-
-#name-home {
-	font-size: 100px;
-	padding-top: 15vh;
-}
-#title-home {
-	font-size: 30px;
-}
-.download-home {
-	color: #fafafa;
-	font-weight: 800;
-	font-size: 35px;
-	padding-left: 120px;
-}
-
 /*---------------------------------------Header 2*/
 
 .header {
@@ -60,7 +29,7 @@ body {
 
 #name {
 	font-size: 100px;
-	padding-top: 15vh;
+	padding-top:;
 }
 #title {
 	font-size: 30px;
@@ -90,7 +59,7 @@ footer i:hover {
 	text-decoration: none;
 }
 
-footer p a {
+footer a {
 	color: #a7def2;
 }
 
@@ -102,7 +71,7 @@ footer i {
 	text-align: center;
 }
 
-.contact {
+.tel {
 	text-align: right;
 }
 

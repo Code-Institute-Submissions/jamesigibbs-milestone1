@@ -8,6 +8,7 @@
     }
     #title {
         font-size: 1.5rem;
+        text-align: center;
     }
     .download {
         display: none;
@@ -16,7 +17,7 @@
     .r-navbar {
         position: absolute;
         top: 25px;
-        right: 300px;
+        left: 150px;
     }
     .navbar-toggler {
         background: #1c7191;
