@@ -19,6 +19,7 @@
     
     a.nav-link {
         font-size: 1.25rem;
+        text-align: center;
     }
 
     .collapsing {
@@ -30,6 +31,8 @@
         background-color: #1c7191;
         z-index: 2;
     }
+
+
     nav a:focus {
         background-color: rgba(0, 0, 0, 0.3) !important;
     }
