@@ -12,13 +12,28 @@
     }
     .download {
         display: none;
+        
     }
+
     /*----------------------------------Navbar*/
-    .r-navbar {
-        position: absolute;
-        top: 25px;
-        left: 150px;
+    
+    a.nav-link {
+        font-size: 1.25rem;
     }
+
+    .collapsing {
+        background-color: #1c7191; 
+        z-index: 2;
+    }
+
+    .show {
+        background-color: #1c7191;
+        z-index: 2;
+    }
+    nav a:focus {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+
     .navbar-toggler {
         background: #1c7191;
         color: #fafafa;
@@ -43,4 +58,5 @@
        height: 95%;
        float: center
     }
+ 
 } 
