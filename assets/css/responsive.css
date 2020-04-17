@@ -54,12 +54,25 @@
 
     .profile{
        padding-top: 100px;
+       display: flex;
+       justify-content: center;
     }
 
     .profile-p {
        width: 90%;
        height: 95%;
-       float: center
+    }
+
+    /*-----------------------------expienince.html*/
+
+    .part-time-img {
+        display: none;
     }
  
+    /*-----------------------------expienince.html*/
+
+    .project {
+        padding-bottom: 30px;
+    }
 } 
+

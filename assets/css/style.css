@@ -10,7 +10,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/*---------------------------------------Header 2*/
+/*---------------------------------------Header*/
 
 .header {
 	background-color: #1c7191;
@@ -213,6 +213,7 @@ a.nav-link:hover {
 	font-family: "Roboto", sans-serif;
 }
 
+
 .part-time-t {
 	padding-top: 50px;
 }
@@ -227,7 +228,6 @@ a.nav-link:hover {
 	border: solid 5px #55b9e3;
 	height: 222px;
 	width: 333px;
-	display: inline-block;
 }
 
 /*------------------------------------------------------Projects*/
