@@ -187,9 +187,14 @@ a.nav-link:hover {
 
 /*-----------------------------------------experience.html*/
 
+.exp-heading {
+    padding-top: 40px;
+}
+
 .full-time-img {
-	height: 486px;
-	width: 486px;
+	height: auto;
+	max-width: 75%;
+    padding-bottom: 30px;
 }
 
 .full-time-box {
@@ -197,20 +202,12 @@ a.nav-link:hover {
 }
 
 .full-time-t {
-	position: absolute;
-	top: 40%;
-	left: 47%;
-	margin-left: -50px;
-	margin-top: -50px;
+	padding-top: 10vh;
+    padding-bottom: 20px;
 }
 
 .full-time-c {
-	position: absolute;
-	top: 50%;
-	left: 35%;
-	margin-left: -50px;
-	margin-top: -50px;
-	font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
 }
 
 
@@ -233,8 +230,8 @@ a.nav-link:hover {
 /*------------------------------------------------------Projects*/
 
 .placeholder {
-	height: 360px;
-	width: 480px;
+	height: auto;
+	width: 70%;
 	background: #55b9e3;
 	margin-bottom: 20px;
 }
