@@ -11,7 +11,7 @@ newNav.className = "navitem";
 
 const navbar = document.querySelector('ul.navbar-nav');
 
-if (scWidth <= 500) {
+if (scWidth <= 900) {
     navbar.append(newNav);
     navbar.appendChild(download);
 }; 

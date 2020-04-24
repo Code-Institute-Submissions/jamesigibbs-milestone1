@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     /*----------------------------------Header*/
     #name{
         font-size: 2.5rem;
@@ -45,7 +45,7 @@
     /*----------------------------------index.html*/
 
     .avatar {
-        display: none;
+       visibility: hidden;
     }
 
     .about {
@@ -59,6 +59,37 @@
     }
 
     .profile-p {
+       width: 50%;
+       height: 90%;
+    }
+
+    /*-----------------------------expienince.html*/
+
+    .full-time-img {
+        padding-top: 50px;
+        width: 50vw;
+        height: auto;
+    }
+
+    
+ 
+    /*-----------------------------projects.html*/
+
+    .project {
+        padding-bottom: 30px;
+    }
+} 
+
+@media screen and (max-width: 500px){
+   
+
+    /*----------------------------------index.html*/
+
+    #responsive {
+        padding-left: 0px;
+    }
+    
+    .profile-p {
        width: 90%;
        height: 95%;
     }
@@ -69,10 +100,4 @@
         display: none;
     }
  
-    /*-----------------------------expienince.html*/
-
-    .project {
-        padding-bottom: 30px;
-    }
-} 
-
+    
