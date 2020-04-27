@@ -17,18 +17,7 @@
 	<!--Header-->
 	<header class="header">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-8">
-					<h1 class="heading" id="name">James Gibbs</h1>
-					<h2 class="heading" id="title">Junior Full Stack Developer</h2>
-				</div>
-
-				<div class="col-4">
-					<h3><a href="#" class="download">Download CV</a></h3>
-				</div>
-			</div>
-
-			<!--Navbar-->
+        <!--Navbar-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light" style="justify-content: flex-end;">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,8 +25,8 @@
             </button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
 					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home</a>
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="experience.html">Experience</a>
@@ -53,12 +42,21 @@
 								<a class="dropdown-item" href="code-institute.html">Code Instute Projects</a>
 							</div>
 						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="contact.html">Contact me  <span class="sr-only">(current)</span></a>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact me</a>
 						</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download CV</a>
+                        </li>
 					</ul>
 				</div>
 			</nav>
+			<div class="row">
+				<div class="col-lg-10">
+					<h1 class="heading" id="name">James Gibbs</h1>
+					<h2 class="heading" id="title">Junior Full Stack Developer</h2>
+				</div>
+			</div>
 		</div>
 	</header>
 	<!--contact form-->

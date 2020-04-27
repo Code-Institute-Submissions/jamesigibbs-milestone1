@@ -17,18 +17,7 @@
 	<!--Header-->
 	<header class="header">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-8">
-					<h1 class="heading" id="name">James Gibbs</h1>
-					<h2 class="heading" id="title">Junior Full Stack Developer</h2>
-				</div>
-
-				<div class="col-4">
-					<h3><a href="#" class="download">Download CV</a></h3>
-				</div>
-			</div>
-
-			<!--Navbar-->
+        <!--Navbar-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light" style="justify-content: flex-end;">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,9 +45,18 @@
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html">Contact me</a>
 						</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download CV</a>
+                        </li>
 					</ul>
 				</div>
 			</nav>
+			<div class="row">
+				<div class="col-lg-10">
+					<h1 class="heading" id="name">James Gibbs</h1>
+					<h2 class="heading" id="title">Junior Full Stack Developer</h2>
+				</div>
+			</div>
 		</div>
 	</header>
 	<!--What to expect-->
@@ -70,40 +68,47 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-12">
-					<div class="circle">
-						<h1 class="icon"><i class="fas fa-tachometer-alt"></i></h1>
-						<h3 class="circle-label">Fast</h3>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="row">
+						<div class="col-12">
+							<div class="circle">
+								<h1 class="icon"><i class="fas fa-tachometer-alt"></i></h1>
+								<h3 class="circle-label">Fast</h3>
+
+							</div>
+							<p class="circle-p">My website’s will be fast to load and navigate around with absolutely no lag</p>
+						</div>
+						<div class="col-12">
+							<div class="circle">
+								<h1 class="icon"><i class="fas fa-bolt"></i></h1>
+								<h3 class="circle-label">Dynamic</h3>
+							</div>
+							<p class="circle-p">The website will be fun and interesting to look at and display information in an eye popping and catchy form </p>
+						</div>
 					</div>
-					<p class="circle-p">My website’s will be fast to load and navigate around with absolutely no lag</p>
 				</div>
-				<div class="col-md-4 avatar">
+				<div class="col-lg-4 d-none d-lg-block avatar">
 					<img src="assets/imgs/avatar-home.png"  alt="Avatar" class="avatar-img">
 				</div>
 					<div class="col-md-4 col-12" id="responsive">
-						<div class="circle" >
-							<h1 class="icon"><i class="fas fa-mobile-alt"></i></h1>
-							<h3 class="circle-label" >Responsive</h3>
+						<div class="row">
+							<div class="col-12">
+                            <div class="col-12">
+								<div class="circle">
+									<h1 class="icon"><i class="fas fa-brain"></i></h1>
+									<h3 class="circle-label">Intuitive</h3>
+								</div>
+								<p class="circle-p">I aim to make all my websites easy to use and navigate around</p>
+							</div>
+								<div class="circle">
+									<h1 class="icon"><i class="fas fa-mobile-alt"></i></h1>
+									<h3 class="circle-label">Responsive</h3>
+								</div>
+								<p class="circle-p">No matter what device you own, both big and small the website will
+									be easy
+									to navigate around as well as being aesthetically pleasing</p>
+							</div>
 						</div>
-						<p class="circle-p">No matter what device you own, both big and small the website will be easy to navigate around as well as being aesthetically pleasing</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-12">
-						<div class="circle">
-							<h1 class="icon"><i class="fas fa-bolt"></i></h1>
-							<h3 class="circle-label">Dynamic</h3>
-						</div>
-						<p class="circle-p">The website will be fun and interesting to look at and display information in an eye popping and catchy form </p>
-					</div>
-					<div class="col-md-4">
-					</div>
-					<div class="col-md-4 col-12">
-						<div class="circle">
-							<h1 class="icon"><i class="fas fa-brain"></i></h1>
-							<h3 class="circle-label">Intuitive</h3>
-						</div>
-						<p class="circle-p">I aim to make all my websites easy to use and navigate around</p>
 					</div>
 				</div>
 			</div>
@@ -115,7 +120,14 @@
 				<div class="col-12 col-lg-1"></div>
 				<div class="col-12 col-lg-7">
 					<h1 class="about-t">About Me</h1>
-					<p class="about-c">I am a junior full stack developer on the Code Institute Full Stack Developer course. My aim is to be able to create practical web application using a combination of JavaScript, Python and other languages. In my free time I like to participate in outdoor and action sports. My favourite activities are mountain biking, skiing and climbing, I have been participating in these for many years. My goal is that I would  like to combine my passion for software development with my instructing career, to allow me travel around the world participating and teaching these sport’s whilst also creating great web applications along the way.</p>
+					<p class="about-c">I am a junior full stack developer on the Code Institute Full Stack Developer
+						course. My aim is to be able to create practical web application using a combination of
+						JavaScript, Python and other languages. In my free time I like to participate in outdoor and
+						action sports. My favourite activities are mountain biking, skiing and climbing, I have been
+						participating in these for many years. My goal is that I would like to combine my passion for
+						software development with my instructing career, to allow me travel around the world
+						participating and teaching these sport’s whilst also creating great web applications along the
+						way.</p>
 				</div>
 				<div class="col-lg-4 col-12 profile">
 					<img  class="profile-p" src="assets/imgs/profile.png" alt="Profile Picture">
@@ -148,7 +160,7 @@
 	</footer>
 
 
-    <script src="assets/script/script.js"></script>
+	<script src="assets/script/script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
