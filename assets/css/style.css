@@ -230,6 +230,11 @@ a.nav-link:hover {
 
 /*------------------------------------------------------Projects*/
 
+.screenshot {
+    width: 100%;
+    height: auto;
+}
+
 .placeholder {
 	height: auto;
 	width: 70%;
