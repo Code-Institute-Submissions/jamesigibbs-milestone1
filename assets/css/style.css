@@ -266,7 +266,7 @@ a.nav-link:hover {
 /*-----------------------------------------------------contact.html*/
 .contact-t {
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0 30px;
 }
 
 .contact-f {
