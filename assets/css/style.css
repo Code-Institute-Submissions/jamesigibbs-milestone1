@@ -233,6 +233,11 @@ a.nav-link:hover {
 .screenshot {
     width: 100%;
     height: auto;
+    border: solid grey 0.5px;
+}
+
+.project {
+    padding: 25px 0 15px;
 }
 
 .placeholder {
@@ -242,7 +247,7 @@ a.nav-link:hover {
 	margin-bottom: 20px;
 }
 
-.project {
+.project-d {
 	position: relative;
 	top: 25%;
 }
