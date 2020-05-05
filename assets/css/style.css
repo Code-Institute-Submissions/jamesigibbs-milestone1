@@ -10,6 +10,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+a.dropdown-item {
+    text-align: center;
+}
 /*---------------------------------------Header*/
 
 .header {
@@ -28,7 +31,7 @@ body {
 }
 
 #name {
-	font-size: 100px;
+	font-size: 80px;
 }
 #title {
 	font-size: 30px;
