@@ -86,9 +86,9 @@ All the images I have used are from Google images, I have ensured that they are 
 - [Adobe XD](https://en.wikipedia.org/wiki/Adobe_XD) – Used to create the UX of the website
 - [Adobe Photoshop](https://en.wikipedia.org/wiki/Adobe_Photoshop) – Used to edit any images
 
-##Testing
+## Testing
 
-###Testing Tools
+### Testing Tools
 
 I have used the following tools to test my website from different perspectives.
 
