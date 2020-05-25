@@ -155,7 +155,7 @@ I also asked my Parents and brother to test the web site using my desktop pc and
 During testing I found that the links to the git hub repositories closed the web page. I found this could be confusing and have therefore  corrected  this using `target= “_blank”`. This made it so the links opened a new window.
 I also found that when I deployed the website the screen shots were not showing up. I fixed this by removing the `../` from the file path.
 
-## Development
+## Deployment
 
 To deploy my site I chose to used GitHub Pages For the Repository (link).
 To do this I took the following steps:
